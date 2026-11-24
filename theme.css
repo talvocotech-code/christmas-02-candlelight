@@ -1,0 +1,10 @@
+/* 02 · Candlelight — midnight navy, amber flame, arched-window panels */
+:root{--bg:#060a1a;--ink:#f3ecdc;--ink-dim:rgba(243,236,220,.76);--accent:#e8b86a;--accent-ink:#1a1204;--panel:rgba(8,14,40,.68);--panel-line:rgba(232,184,106,.38);--radius:8px;
+ --spark:#ffd9a0,#fff1d6,#e8b86a;--bloom:rgba(255,190,110,.9);--tint-bg:linear-gradient(180deg,rgba(4,8,24,.5),rgba(4,8,24,.92));--tint-max:.92;--burst-x:.3;--burst-y:.5;--focus:42% 40%;--orn:var(--o-candle)}
+.op-title{font-style:italic;font-weight:400;font-size:clamp(38px,11.5vw,52px)}
+.op-title .l1{font-size:.8em;color:#f6dcae}
+.panel{border-radius:170px 170px 8px 8px;padding:64px 26px 32px;box-shadow:0 20px 50px rgba(0,0,0,.5)}
+.panel::before{content:"";position:absolute;left:50%;top:14px;width:2px;height:26px;margin-left:-1px;background:linear-gradient(var(--accent),transparent);opacity:.6}
+.h{font-style:italic;font-weight:400;font-size:32px}
+.sec-closing .cl-line{font-style:italic}
+.btn{border-radius:999px}
